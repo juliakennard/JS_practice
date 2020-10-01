@@ -1,0 +1,142 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+    margin-left: 50px;
+}
+
+p {
+    padding: 10px 20px 40px;
+    margin-top: 0px;
+    font-size: 16px;
+    padding-left: 200px;
+}
+
+#slideDown-img, #slideUp-img, #slideToggle-img , #fadeIn-img{
+    height: 200px;
+    margin-left: 380px;
+    margin-bottom: 20px;
+}
+
+.red {
+    color:red;
+}
+
+.blue-bold {
+    color: blue;
+    font-weight: bold;
+}
+
+#html-div {
+    height: 100px;
+    border: 5px solid red;
+}
+
+#added-html {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#html-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#attr-p {
+    margin-top: 20px;
+}
+
+#summer-winter {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#summer-winter > p {
+    padding: 20px 50px;
+}
+
+#attr-img {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#val-p {
+    margin-top: 20px;
+}
+
+#mars-text-box {
+    margin-left: 145px;
+    color: grey;
+}
+
+#earth-text-box {
+    margin-left: 225px;
+    color: grey;
+}
+
+#mars-hint, #earth-hint {
+    display: inline-block;
+    color: grey;
+    margin-bottom: 0px;
+    padding-left: 145px;
+}
+
+#earth-hint {
+    padding-left: 220px;
+}
+
+#planets {
+    display: flex;
+    justify-content: center;
+}
+
+.planet {
+    width: 300px;
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.planet-label {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: blue;
+    border: 2px solid red;
+}
+
+#mars {
+    margin-left: 230px;
+}
+
+#earth {
+    margin-left: 240px;
+}
+

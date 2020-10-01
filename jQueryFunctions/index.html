@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="jquery-functions" content="This site shows how several jQuery functions work.">
+        <title>jQuery Functions</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1 class="header">Hide</h1>
+            <button id = "hide-btn" class="btn">Hide</button>
+            <p id="hide-p">Click the button to hide this paragraph</p>
+            <hr>
+
+            <h1 class="header">Show</h1>
+            <button id ="show-btn" class="btn">Show</button>
+            <p id="show-p">Click the button to show the above paragraph again</p>
+            <hr>
+
+            <h1 class="header">Toggle</h1>
+            <button id ="toggle-btn" class="btn">Toggle</button>
+            <p id="toggle-p">Click the button to make this paragraph appear and disappear</p>
+            <hr>
+
+            <h1 class="header">SlideDown</h1>
+            <button id="slideDown-btn" class="btn">SlideDown</button>
+            <p id="slideDown-p">Click the button to make an image slide down</p>
+            <img id="slideDown-img" src="images/slideDown.png" alt="Sunglasses Emoji">
+            <hr>
+
+            <h1 class="header">SlideUp</h1>
+            <button id="slideUp-btn" class="btn">SlideUp</button>
+            <p id="slideUp-p">Click the button to make the image above slide up</p>
+            <hr>
+
+            <h1 class="header">SlideToggle</h1>
+            <button id="slideToggle-btn">SlideToggle</button>
+            <p id="slideToggle-p">Click the button to make an image appear and disappear</p>
+            <img id="slideToggle-img" src="images/slideToggle.png" alt="Hungry Emoji">
+            <hr>
+
+            <h1 class="header">FadeIn</h1>
+            <button id="fadeIn-btn">FadeIn</button>
+            <p id="fadeIn-p">Click the button to make an image fade in</p>
+            <img id="fadeIn-img" src="images/fadeIn.png" alt="Ghost Emoji">
+            <hr>
+
+            <h1 class="header">FadeOut</h1>
+            <button id="fadeOut-btn">FadeOut</button>
+            <p id="fadeOut-p">Click the button to make the above image fade out</p>
+            <hr>
+
+            <h1 class="header">AddClass</h1>
+            <button id="addClass-btn">AddClass</button>
+            <p id="addClass-p">Click the button to make this paragraph red</p>
+            <hr>
+
+            <h1 class="header">Before</h1>
+            <button id="before-btn">Before</button>
+            <p id="before-p">Click the button to add words before this paragraph</p>
+            <hr>
+
+            <h1 class="header">After</h1>
+            <button id="after-btn">After</button>
+            <p id="after-p">Click the button to add words after this paragraph</p>
+            <hr>
+
+            <h1 class="header">Append</h1>
+            <button id="append-btn">Append</button>
+            <p id="append-p">Click the button to append words to this paragraph</p>
+            <hr>
+
+            <h1 class="header">HTML</h1>
+            <button id="html-btn">HTML</button>
+            <p id="html-p">Click the button to add words to the empty red box below</p>
+            <div id="html-div"></div>
+            <hr>
+
+            <h1 class="header">Attr</h1>
+            <p id="attr-p">Hover over the words "Summer" or "Winter" to see the image change</p>
+            <img id="attr-img" src="images/summer.jpg" alt="Alternating picture of sunny beach or snowy road" summer="images/summer.jpg" winter="images/winter.jpg">
+            <div id="summer-winter">
+                <p id="summer">SUMMER</p>
+                <p id="winter">WINTER</p>
+            </div>
+            <hr>
+
+            <h1 class="header">Val & Text</h1>
+            <p id="val-p">Type is the boxes below to label the planets</p>
+            <input id="mars-text-box" type="text">
+            <input id="earth-text-box" type="text">
+            <p id="mars-hint">Hint: the red planet</p>
+            <p id="earth-hint">Hint: our home planet</p>
+            <div id="planets">
+                <img class="planet" src="images/mars.jpg" alt="Picture of Mars as seen from Apolo 11">
+                <img class="planet" src="images/earth.jpg" alt="Picture of Earth as seen from Apolo 11">
+            </div>
+            <div id="planet-labels">
+                <p id="mars" class="planet-label"></p>
+                <p id="earth" class="planet-label"></p>
+            </div>
+            <hr>
+
+        </div>
+    </body>
+</html>
